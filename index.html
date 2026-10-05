@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Practice</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Event Registration Form</h1>
+        <form id="regform">
+            <label for="name">Full Name: </label>
+            <input type="text" id="name" required> <br><br>
+            <label for="phno">Phone number: </label>
+            <input type="text" id="phno" required> <br><br>
+            <label for="mail">Email: </label>
+            <input type="text" id="mail" required> <br><br>
+            <label for="clg">College: </label>
+            <input type="text" id="clg" required> <br><br>
+            <label for="event">Event: </label>
+            <select name="event" id="event">
+                <option value="">--Select an Event--</option>
+                <option value="hacakthon">Hacakthon</option>
+                <option value="coding-contest">Coding Contest</option>
+            </select><br><br>
+            <button type="submit">Register</button>
+        </form>
+        <p id="msg"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

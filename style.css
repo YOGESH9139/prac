@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: solid;
+    border-radius: 3%;
+    margin: auto;
+    width: 500px;
+    padding: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+}
+
+button {
+    padding: 2%;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    border: none;
+}
