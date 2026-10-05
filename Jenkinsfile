@@ -7,14 +7,14 @@ pipeline{
                 checkout scm
             }
         }
-        
+
         stage ('Build') {
             steps {
                 echo 'Building registration page...'
                 bat '''
-                    if not exists index.html exit /b 1
-                    if not exists style.css exit /b 1
-                    if not exists script.js exit /b 1
+                    if not exist index.html exit /b 1
+                    if not exist style.css exit /b 1
+                    if not exist script.js exit /b 1
                 '''
                 echo 'All build files exist.'
             }
